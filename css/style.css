@@ -1,0 +1,117 @@
+.offers__block {
+  max-width: 1280px;
+  margin: auto;
+  padding-bottom: 80px;
+}
+.offers__title {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #1F1E1E;
+  margin-bottom: 40px;
+}
+.plates {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "item-1 item-2 item-5 item-5" "item-3 item-4 item-5 item-5" "item-6 item-6 item-7 item-8" "item-6 item-6 item-9 item-10";
+  gap: 30px;
+}
+.plates__item {
+  position: relative;
+  filter: grayscale(100%);
+  transition: all 0.3s ease-in-out;
+}
+.plates__item:hover {
+  filter: none;
+  transition: all 0.3s ease-in-out;
+}
+.plates__item:nth-of-type(1) {
+  grid-area: item-1;
+}
+.plates__item:nth-of-type(2) {
+  grid-area: item-2;
+}
+.plates__item:nth-of-type(3) {
+  grid-area: item-3;
+}
+.plates__item:nth-of-type(4) {
+  grid-area: item-4;
+}
+.plates__item:nth-of-type(5) {
+  grid-area: item-5;
+}
+.plates__item:nth-of-type(6) {
+  grid-area: item-6;
+}
+.plates__item:nth-of-type(7) {
+  grid-area: item-7;
+}
+.plates__item:nth-of-type(8) {
+  grid-area: item-8;
+}
+.plates__item:nth-of-type(9) {
+  grid-area: item-9;
+}
+.plates__item:nth-of-type(10) {
+  grid-area: item-10;
+}
+.plates__img {
+  width: 100%;
+  height: 100%;
+}
+.plates__title, .plates__title_big {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #fff;
+}
+.plates__title_big {
+  left: 30px;
+  font-size: 24px;
+  color: #fff;
+}
+.plates__price, .plates__price_big {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #fff;
+}
+.plates__price_big {
+  left: 30px;
+}
+.plates__location {
+  position: absolute;
+  left: 30px;
+  top: 90px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #fff;
+}
+.plates__period {
+  position: absolute;
+  top: 125px;
+  left: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
